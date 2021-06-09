@@ -33,6 +33,8 @@ py -m install telegram
 
 py -m install python-telegram-bot
 
+py -m pip install requests
+
 
 Step 4: Editing your list and running the python script.
 
