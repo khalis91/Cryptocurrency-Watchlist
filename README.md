@@ -11,8 +11,9 @@ Step 1: Launch BotFather on Telegram
 Search for @botfather on Telegram and launch the bot. BotFather is a bot that helps us create and manage Telegram bot interfaces.
 
 Step 2: Create a Telegram bot interface
-To create a new bot with BotFather. First, use the /newbot command, that will trigger BotFather to ask you for the details of the bot you want to create.
-BotFather will give you the HTTP token after you have supplied the name and username for your bot. The token is used to build functionality for your bot via the Telegram API.
+Use the /newbot command to trigger BotFather which will ask you for the details of the bot you want to create.
+BotFather will give you the HTTP token after you have supplied the name and username for your bot. 
+The token is used to build functionality for your bot via the Telegram API.
 
 Step 3: Connect to the Telegram API via Python
 First, we will be installing a couple of Python libraries that will allow us to easily interact with the Telegram API.
