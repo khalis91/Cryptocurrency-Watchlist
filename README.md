@@ -23,9 +23,13 @@ Download above python files save it in a folder & open it in VS Code. Ensure pat
 Type the following in terminal:
 
 py -m pip install
+
 py -m pip install --upgrade pip
+
 py -m install telegram
+
 py -m install python-telegram-bot
+
 
 Step 4: Editing your list and running the python script.
 Edit the bot.py file according to the list of coins you desire. Run tracker.py as well as bot.py after in terminal. 
