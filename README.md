@@ -38,7 +38,7 @@ py -m pip install requests
 
 Step 4: Editing your list and running the python script.
 
-Edit the bot.py file according to the list of coins you desire. Run tofupricetracker.py as well as tofutelebot.py after in terminal. 
+Edit the tofutelebot.py file according to the list of coins you desire. Run tofupricetracker.py as well as tofutelebot.py after in terminal. 
 
 Step 5:
 
