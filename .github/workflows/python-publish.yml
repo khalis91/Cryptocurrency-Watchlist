@@ -6,7 +6,7 @@
 # separate terms of service, privacy policy, and support
 # documentation.
 
-name: Upload Python Package
+name: Tofu Crypto Watchlist package
 
 on:
   release:
@@ -27,6 +27,9 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install build
+        pip install telegram
+        pip install python-telegram-bot
+        pip install requests
     - name: Build package
       run: python -m build
     - name: Publish package
